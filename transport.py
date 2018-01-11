@@ -65,5 +65,5 @@ class predictor:
       thefile.write("%s\n" % item)
 
 prc = predictor("transport_data.csv")
-prc.predict(isDebug=True)
+prc.predict()
 
